@@ -5,9 +5,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = 'troque-esta-chave-em-producao'
 
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "homemcom-agenda.onrender.com",
+    ".onrender.com",
+]
 
 
 INSTALLED_APPS = [
